@@ -1,0 +1,617 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    line-height: 50px;
+    color: #007bff;
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.space-free {
+    height: 100px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.g-pad-bottom {
+    padding-bottom: 30px;
+    ;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.label-danger {
+    font-size: 18px;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+.go-marg {
+    margin-top: 40px;
+}
+
+.go-margIndex {
+    margin-top: 40px;
+    margin-left: 30em;
+
+}
+
+#home-sec {
+
+
+    background: url(../img/1.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 190px;
+    min-height: 650px;
+    color: #fff;
+}
+
+.head-main {
+    font-size: 50px;
+    font-weight: 900;
+    border: 5px outset #fff;
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+
+.head-last {
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+    font-size: 18px;
+}
+
+.navbar-inverse {
+    background: #fff;
+    min-height: 60px;
+    padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #000;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse :hover .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+}
+
+.navbar-inverse {
+    border-color: #D6D6D6;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #000;
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+/*==========================================
+    PORTFOLIO STYLES
+    =====================================================*/
+
+
+.portfolio-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-items {
+    margin-right: -20px;
+}
+
+.portfolio-items>li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-items.col-3>li {
+    width: 33%;
+}
+
+.portfolio-item .item-main {
+    margin: 0 10px 10px 0;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #E8EAEE;
+
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.portfolio-item .portfolio-image {
+    position: relative;
+}
+
+.portfolio-item h5 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #E91C1C;
+    color: #fff;
+}
+
+.portfolio-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+.portfolio-item .overlay .preview {
+    position: relative;
+    top: 50%;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+/*=======================================
+    Contact STYLES
+==================================================*/
+
+.cnt {
+    width: 100%;
+    min-height: 350px;
+    border: 1px solid #e1e1e1;
+}
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+    border-top: 1px solid #d6d6d6;
+}
+
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+
+/*=======================================
+    DARK mODE
+    
+    ==================================================*/
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+
+
+/*=======================================
+    MEDIA GALLERY
+    
+    ==================================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .demo {
+        height: 100px;
+    }
+}
+
+
+/*li amenities*/
+.amenities {
+    margin-left: -38px;
+    margin-top: -1em;
+    font-size: 17px;
+}
+
+.iconcolor {
+    font-size: 26px !important;
+    color: #007bff;
+}
+
+.packheading {
+    font-size: 24px;
+}
+
+.iconlist {
+    color: #007bff;
+    font-size: 20px !important;
+}
+
+/*accordion*/
+details {
+    border: 1px solid #d4d4d4;
+    padding: .75em .75em 0;
+    margin-top: 10px;
+    box-shadow: 0 0 20px #d4d4d4;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.75em -.75em 0;
+    padding: .75em;
+    background-color: #8cc1f9;
+    color: #fff;
+}
+
+details[open] {
+    padding: .75em;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 10px;
+}
+
+details>summary {
+    list-style: none;
+}
+
+/*loading spinner*/
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #007bff;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
+    display: none;
+}
+
+.plus {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.plus::before {
+    content: "+";
+}
+
+
+.bar div {
+    float: left;
+    color: white;
+    padding: 1ex;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a.button3 {
+    display: inline-block;
+    width: 110px;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #007bff;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button3:hover {
+    background-color: #023f7f;
+}
+
+@media all and (max-width:30em) {
+    a.button3 {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .datein {
+        margin-top: 1em;
+    }
+}
